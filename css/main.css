@@ -5800,7 +5800,44 @@ button.close {
 * {
   font-family: "Raleway", sans-serif; }
 
-.navBaselito {
-  background: transparent; }
+nav .containerMenu {
+  margin-top: 20px; }
+nav a {
+  text-decoration: none;
+  color: white; }
+nav .enlacenav:hover {
+  text-decoration: none;
+  background-color: blue;
+  opacity: 0.3;
+  color: black;
+  font-weight: bold; }
+nav .navbar-header:hover {
+  background-color: transparent; }
+nav .colorRojo {
+  background-color: #e91e63;
+  color: white; }
+nav .colorRojo:hover {
+  background-color: #e91e63;
+  color: white; }
+
+.carouselBase .btnSeeMore {
+  background-color: #e91e63;
+  color: white;
+  margin-top: 30px; }
+.carouselBase .btnSeeMore:hover {
+  background-color: #e91e63;
+  color: white; }
+.carouselBase .imgaenFondoSlide1, .carouselBase .imgaenFondoSlide2 {
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-position: center; }
+.carouselBase .imgaenFondoSlide2 {
+  background-image: url(../img/img_slider_2.jpg); }
+.carouselBase .imgaenFondoSlide1 {
+  background-image: url(../img/img_slider_1.jpg); }
+.carouselBase .tituloSlide {
+  font-size: 75px;
+  font-weight: bold; }
 
 /*# sourceMappingURL=main.css.map */
