@@ -5800,6 +5800,9 @@ button.close {
 * {
   font-family: "Montserrat", sans-serif; }
 
+body {
+  background-color: #CCCCCC; }
+
 nav .containerMenu {
   margin-top: 20px; }
 nav a {
@@ -5809,10 +5812,11 @@ nav .enlacenav:hover {
   text-decoration: none;
   background-color: blue;
   opacity: 0.3;
-  color: black;
+  color: #000000;
   font-weight: bold; }
 nav .navbar-header:hover {
-  background-color: transparent; }
+  background-color: transparent;
+  color: #fff; }
 nav .colorRojo {
   background-color: #e91e63;
   color: white; }
@@ -5851,7 +5855,7 @@ nav .colorRojo:hover {
   position: relative;
   z-index: 3;
   background: #fff; }
-.englobaCuerpito .textoArrobaDelCuerpito {
+.englobaCuerpito .parte1 .textoArrobaDelCuerpito {
   margin-top: 50px;
   font-size: 16px;
   text-align: center;
@@ -5859,28 +5863,57 @@ nav .colorRojo:hover {
   color: #999999;
   line-height: 1.6;
   /* espaciado */ }
-.englobaCuerpito .info {
+.englobaCuerpito .parte1 .info {
   padding: 70px 0 30px;
   margin: 0 auto;
   max-width: 360px;
   text-align: center; }
-.englobaCuerpito i {
+.englobaCuerpito .parte1 i {
   font-size: 70px; }
-.englobaCuerpito a {
+.englobaCuerpito .parte1 a {
   text-decoration: none; }
-.englobaCuerpito .infoTitulo {
+.englobaCuerpito .parte1 .infoTitulo {
   font-size: 18px;
   font-weight: 700;
   color: #000000;
   text-align: center; }
-.englobaCuerpito .parraff {
+.englobaCuerpito .parte1 .parraff {
   margin: 0 0 10px;
-  font-weight: 300; }
-.englobaCuerpito .rosado {
+  font-weight: 300;
+  color: #999999; }
+.englobaCuerpito .parte1 .rosado {
   color: #e91e63; }
-.englobaCuerpito .celeste {
+.englobaCuerpito .parte1 .celeste {
   color: #00bcd4; }
-.englobaCuerpito .verde {
+.englobaCuerpito .parte1 .verde {
   color: #4caf50; }
+.englobaCuerpito .parte2 {
+  width: 100%;
+  height: 900px;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../img/img_city.jpg);
+  padding: 65px 0 30px;
+  color: white;
+  background-attachment: fixed;
+  /* para hacer scroll */
+  overflow: scroll; }
+  .englobaCuerpito .parte2 .elementosParte2 {
+    padding: 0 5% 5% 5%; }
+  .englobaCuerpito .parte2 .textosParteDos {
+    padding-right: 8%; }
+  .englobaCuerpito .parte2 .tituloParte2 {
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 45px; }
+  .englobaCuerpito .parte2 p {
+    font-size: 17px;
+    font-weight: 300; }
+  .englobaCuerpito .parte2 .video {
+    padding-left: 20%; }
+  .englobaCuerpito .parte2 .tamanoVideo {
+    max-width: 100%;
+    width: 70%;
+    height: 380px; }
 
 /*# sourceMappingURL=main.css.map */

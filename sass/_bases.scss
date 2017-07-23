@@ -2,6 +2,10 @@
 	font-family: $body_font;
 }
 
+body{
+	background-color: #CCCCCC;
+}
+
 nav{
 	.containerMenu{
 	    margin-top: 20px;
@@ -16,12 +20,13 @@ nav{
 		text-decoration: none;
 		background-color: rgb(0,0,255); 
 		opacity: 0.3;
-		color: black;
+		color: #000000;
 		font-weight: bold;
 	}
 
 	.navbar-header:hover{
 		background-color: transparent;
+		color: #fff;
 	}
 
 	.colorRojo{
@@ -88,51 +93,96 @@ nav{
 	    background: #fff;
 	}
 
-	.textoArrobaDelCuerpito{
-		margin-top: 50px;
-	    font-size: 16px;
-	    text-align: center;
-	    font-weight: 400;
-	    color: #999999;
-	    line-height: 1.6; /* espaciado */
+	.parte1{
+		.textoArrobaDelCuerpito{
+			margin-top: 50px;
+		    font-size: 16px;
+		    text-align: center;
+		    font-weight: 400;
+		    color: #999999;
+		    line-height: 1.6; /* espaciado */
+		}
+
+		.info{
+			padding: 70px 0 30px;
+	    	margin: 0 auto;
+	    	max-width: 360px;
+	    	text-align: center;
+		}
+
+		i{
+			font-size: 70px;
+		}
+
+		a{
+			text-decoration: none;
+		}
+
+		.infoTitulo{
+			font-size: 18px;
+	    	font-weight: 700;
+	    	color: #000000;
+	    	text-align: center;
+		}
+
+		.parraff{
+			margin: 0 0 10px;
+			font-weight: 300;
+			color: #999999;
+		}
+
+		.rosado{
+			color: #e91e63;
+		}
+
+		.celeste{
+			color: #00bcd4;
+		}
+
+		.verde{
+			color: #4caf50;
+		}
 	}
 
-	.info{
-		padding: 70px 0 30px;
-    	margin: 0 auto;
-    	max-width: 360px;
-    	text-align: center;
-	}
+	.parte2{
+		width: 100%;
+		height: 900px;
+		background-size: cover;
+		background-position: center;
+		background-image: url(../img/img_city.jpg);
+		padding: 65px 0 30px;
+		color: white;
+		background-attachment: fixed; /* para hacer scroll */
+  		overflow: scroll;
 
-	i{
-		font-size: 70px;
-	}
+		.elementosParte2{
+			padding: 0 5% 5% 5%;
+		}
 
-	a{
-		text-decoration: none;
-	}
+		.textosParteDos{
+			padding-right: 8%;
+		}
 
-	.infoTitulo{
-		font-size: 18px;
-    	font-weight: 700;
-    	color: #000000;
-    	text-align: center;
-	}
+		.tituloParte2{
+			font-weight: 900;
+			font-size: 30px;
+			margin-bottom: 45px;
+		}
 
-	.parraff{
-		margin: 0 0 10px;
-		font-weight: 300;
-	}
+		p{
+			font-size: 17px;
+			font-weight: 300;
+		}
 
-	.rosado{
-		color: #e91e63;
-	}
+		.video{
+			padding-left: 20%;
+		}
 
-	.celeste{
-		color: #00bcd4;
-	}
+		.tamanoVideo{
+			max-width: 100%;
+    		width: 70%;
+    		height: 380px;
+		}
 
-	.verde{
-		color: #4caf50;
 	}
 }
