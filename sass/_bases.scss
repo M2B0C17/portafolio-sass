@@ -54,6 +54,10 @@ nav{
 		background-position: center;
 	}
 
+	.subeTextSlide{
+		margin-bottom: 12%;
+	}
+
 	.imgaenFondoSlide2{
 		background-image: url(../img/img_slider_2.jpg);
 	}
@@ -63,8 +67,72 @@ nav{
 	}
 
 	.tituloSlide{
-		font-size: 75px;
+		font-size: 60px;
 		font-weight: bold;
 	}
 
+	.textulioSlide{
+		font-size: 17px;
+	}
+}
+
+.englobaCuerpito{
+	.baseBlanca{
+		margin: -60px 30px 0;
+	    border-radius: 6px;
+	}
+
+	.main{
+		position: relative;
+	    z-index: 3;
+	    background: #fff;
+	}
+
+	.textoArrobaDelCuerpito{
+		margin-top: 50px;
+	    font-size: 16px;
+	    text-align: center;
+	    font-weight: 400;
+	    color: #999999;
+	    line-height: 1.6; /* espaciado */
+	}
+
+	.info{
+		padding: 70px 0 30px;
+    	margin: 0 auto;
+    	max-width: 360px;
+    	text-align: center;
+	}
+
+	i{
+		font-size: 70px;
+	}
+
+	a{
+		text-decoration: none;
+	}
+
+	.infoTitulo{
+		font-size: 18px;
+    	font-weight: 700;
+    	color: #000000;
+    	text-align: center;
+	}
+
+	.parraff{
+		margin: 0 0 10px;
+		font-weight: 300;
+	}
+
+	.rosado{
+		color: #e91e63;
+	}
+
+	.celeste{
+		color: #00bcd4;
+	}
+
+	.verde{
+		color: #4caf50;
+	}
 }
