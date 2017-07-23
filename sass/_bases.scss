@@ -6,6 +6,8 @@ body{
 	background-color: #CCCCCC;
 }
 
+/* PARTE NAV */
+
 nav{
 	.containerMenu{
 	    margin-top: 20px;
@@ -39,6 +41,10 @@ nav{
 		color: white;
 	}
 }
+
+/* FIN PARTE NAV */
+
+/* PARTE HEADER */
 
 .carouselBase{
 	.btnSeeMore{
@@ -81,6 +87,10 @@ nav{
 	}
 }
 
+/* FIN HEADER */
+
+/* PARTE CUERPO */
+
 .englobaCuerpito{
 	.baseBlanca{
 		margin: -60px 30px 0;
@@ -92,6 +102,8 @@ nav{
 	    z-index: 3;
 	    background: #fff;
 	}
+
+	/* PARTE 1 */
 
 	.parte1{
 		.textoArrobaDelCuerpito{
@@ -144,6 +156,10 @@ nav{
 		}
 	}
 
+	/* FIN PARTE 1 */
+
+	/* PARTE 2 */
+
 	.parte2{
 		width: 100%;
 		height: 900px;
@@ -185,4 +201,116 @@ nav{
 		}
 
 	}
+
+	/* FIN PARTE 2 */
+
+	/* PARTE 3 */
+
+	.parte3{
+		padding: 65px 0 70px;
+
+		.tituloParte3{
+			font-size: 40px;
+			color: #000000;
+			font-weight: 700;
+		}
+
+		.parraffParte3{
+			margin: 0 0 10px;
+			font-weight: 300;
+			color: #999999;
+			font-size: 18px;
+		}
+
+		.shopping{
+			margin-top: 30px;
+			height: 637px;
+			padding-left: 10px;
+			margin-right: -10px;
+		}
+
+		.fotParte3{ /* Base foto */
+			margin-top: 30px;
+			display: inline-block;
+		    position: relative;
+		    width: 100%;
+		    height: 80vh;
+		    margin-bottom: 25px;
+		    border-radius: 6px;
+		    color: rgba(0,0,0,.87);
+		    background: #F5F5F5;
+		}
+
+		.imgParte3{
+			overflow: hidden;
+		    position: relative;
+		    height: 60%;
+		    margin-top: -25px;
+		    margin-right: 15px;
+		    margin-left: 15px;
+		    border-radius: 5px;
+		}
+
+		.imgParte3Foto{
+			float: left;
+		    width: 100%;
+		    height: 100%;
+		    margin: 0 !important;
+		    border-radius: 6px;
+		}
+
+		.tituloProductos{
+			font-size: 15px;
+			text-align: center;
+			color: #CC0063;
+			text-decoration: none;
+		}
+
+		a, a:hover{
+			text-decoration: none;
+		}
+
+		.tituloProductos:hover{
+			color: #CC0063;
+		}
+
+		.productoTitulo{
+			font-size: 18px;
+	    	font-weight: 400;
+	    	color: #000000;
+	    	text-align: center;
+		}
+
+		.cajaInfoProductos{
+			padding: 0 10px 0 10px;
+			text-align: center;
+			font-weight: 300;
+		    color: #999999;
+		    font-size: 14px;
+		}
+
+		.precio{
+			margin-top: 5px;
+    		width: 100%;
+		}
+
+		.price{
+			color: #999999;
+		    font-size: 20px;
+		    text-align: center;
+		    font-weight: lighter;
+		}
+
+		.a{
+			color: #999999;
+		    font-size: 20px;
+		    text-decoration: none;
+		}
+
+		.top{
+			padding-top: 10px;
+		}
+	}
+
+	/* FIN PARTE 3 */
 }

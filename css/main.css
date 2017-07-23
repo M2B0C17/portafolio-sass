@@ -5803,6 +5803,7 @@ button.close {
 body {
   background-color: #CCCCCC; }
 
+/* PARTE NAV */
 nav .containerMenu {
   margin-top: 20px; }
 nav a {
@@ -5824,6 +5825,8 @@ nav .colorRojo:hover {
   background-color: #e91e63;
   color: white; }
 
+/* FIN PARTE NAV */
+/* PARTE HEADER */
 .carouselBase .btnSeeMore {
   background-color: #e91e63;
   color: white;
@@ -5848,72 +5851,156 @@ nav .colorRojo:hover {
 .carouselBase .textulioSlide {
   font-size: 17px; }
 
-.englobaCuerpito .baseBlanca {
-  margin: -60px 30px 0;
-  border-radius: 6px; }
-.englobaCuerpito .main {
-  position: relative;
-  z-index: 3;
-  background: #fff; }
-.englobaCuerpito .parte1 .textoArrobaDelCuerpito {
-  margin-top: 50px;
-  font-size: 16px;
-  text-align: center;
-  font-weight: 400;
-  color: #999999;
-  line-height: 1.6;
-  /* espaciado */ }
-.englobaCuerpito .parte1 .info {
-  padding: 70px 0 30px;
-  margin: 0 auto;
-  max-width: 360px;
-  text-align: center; }
-.englobaCuerpito .parte1 i {
-  font-size: 70px; }
-.englobaCuerpito .parte1 a {
-  text-decoration: none; }
-.englobaCuerpito .parte1 .infoTitulo {
-  font-size: 18px;
-  font-weight: 700;
-  color: #000000;
-  text-align: center; }
-.englobaCuerpito .parte1 .parraff {
-  margin: 0 0 10px;
-  font-weight: 300;
-  color: #999999; }
-.englobaCuerpito .parte1 .rosado {
-  color: #e91e63; }
-.englobaCuerpito .parte1 .celeste {
-  color: #00bcd4; }
-.englobaCuerpito .parte1 .verde {
-  color: #4caf50; }
-.englobaCuerpito .parte2 {
-  width: 100%;
-  height: 900px;
-  background-size: cover;
-  background-position: center;
-  background-image: url(../img/img_city.jpg);
-  padding: 65px 0 30px;
-  color: white;
-  background-attachment: fixed;
-  /* para hacer scroll */
-  overflow: scroll; }
-  .englobaCuerpito .parte2 .elementosParte2 {
-    padding: 0 5% 5% 5%; }
-  .englobaCuerpito .parte2 .textosParteDos {
-    padding-right: 8%; }
-  .englobaCuerpito .parte2 .tituloParte2 {
-    font-weight: 900;
-    font-size: 30px;
-    margin-bottom: 45px; }
-  .englobaCuerpito .parte2 p {
-    font-size: 17px;
-    font-weight: 300; }
-  .englobaCuerpito .parte2 .video {
-    padding-left: 20%; }
-  .englobaCuerpito .parte2 .tamanoVideo {
-    max-width: 100%;
-    width: 70%;
-    height: 380px; }
+/* FIN HEADER */
+/* PARTE CUERPO */
+.englobaCuerpito {
+  /* PARTE 1 */
+  /* FIN PARTE 1 */
+  /* PARTE 2 */
+  /* FIN PARTE 2 */
+  /* PARTE 3 */
+  /* FIN PARTE 3 */ }
+  .englobaCuerpito .baseBlanca {
+    margin: -60px 30px 0;
+    border-radius: 6px; }
+  .englobaCuerpito .main {
+    position: relative;
+    z-index: 3;
+    background: #fff; }
+  .englobaCuerpito .parte1 .textoArrobaDelCuerpito {
+    margin-top: 50px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+    color: #999999;
+    line-height: 1.6;
+    /* espaciado */ }
+  .englobaCuerpito .parte1 .info {
+    padding: 70px 0 30px;
+    margin: 0 auto;
+    max-width: 360px;
+    text-align: center; }
+  .englobaCuerpito .parte1 i {
+    font-size: 70px; }
+  .englobaCuerpito .parte1 a {
+    text-decoration: none; }
+  .englobaCuerpito .parte1 .infoTitulo {
+    font-size: 18px;
+    font-weight: 700;
+    color: #000000;
+    text-align: center; }
+  .englobaCuerpito .parte1 .parraff {
+    margin: 0 0 10px;
+    font-weight: 300;
+    color: #999999; }
+  .englobaCuerpito .parte1 .rosado {
+    color: #e91e63; }
+  .englobaCuerpito .parte1 .celeste {
+    color: #00bcd4; }
+  .englobaCuerpito .parte1 .verde {
+    color: #4caf50; }
+  .englobaCuerpito .parte2 {
+    width: 100%;
+    height: 900px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/img_city.jpg);
+    padding: 65px 0 30px;
+    color: white;
+    background-attachment: fixed;
+    /* para hacer scroll */
+    overflow: scroll; }
+    .englobaCuerpito .parte2 .elementosParte2 {
+      padding: 0 5% 5% 5%; }
+    .englobaCuerpito .parte2 .textosParteDos {
+      padding-right: 8%; }
+    .englobaCuerpito .parte2 .tituloParte2 {
+      font-weight: 900;
+      font-size: 30px;
+      margin-bottom: 45px; }
+    .englobaCuerpito .parte2 p {
+      font-size: 17px;
+      font-weight: 300; }
+    .englobaCuerpito .parte2 .video {
+      padding-left: 20%; }
+    .englobaCuerpito .parte2 .tamanoVideo {
+      max-width: 100%;
+      width: 70%;
+      height: 380px; }
+  .englobaCuerpito .parte3 {
+    padding: 65px 0 70px; }
+    .englobaCuerpito .parte3 .tituloParte3 {
+      font-size: 40px;
+      color: #000000;
+      font-weight: 700; }
+    .englobaCuerpito .parte3 .parraffParte3 {
+      margin: 0 0 10px;
+      font-weight: 300;
+      color: #999999;
+      font-size: 18px; }
+    .englobaCuerpito .parte3 .shopping {
+      margin-top: 30px;
+      height: 637px;
+      padding-left: 10px;
+      margin-right: -10px; }
+    .englobaCuerpito .parte3 .fotParte3 {
+      /* Base foto */
+      margin-top: 30px;
+      display: inline-block;
+      position: relative;
+      width: 100%;
+      height: 80vh;
+      margin-bottom: 25px;
+      border-radius: 6px;
+      color: rgba(0, 0, 0, 0.87);
+      background: #F5F5F5; }
+    .englobaCuerpito .parte3 .imgParte3 {
+      overflow: hidden;
+      position: relative;
+      height: 60%;
+      margin-top: -25px;
+      margin-right: 15px;
+      margin-left: 15px;
+      border-radius: 5px; }
+    .englobaCuerpito .parte3 .imgParte3Foto {
+      float: left;
+      width: 100%;
+      height: 100%;
+      margin: 0 !important;
+      border-radius: 6px; }
+    .englobaCuerpito .parte3 .tituloProductos {
+      font-size: 15px;
+      text-align: center;
+      color: #CC0063;
+      text-decoration: none; }
+    .englobaCuerpito .parte3 a, .englobaCuerpito .parte3 a:hover {
+      text-decoration: none; }
+    .englobaCuerpito .parte3 .tituloProductos:hover {
+      color: #CC0063; }
+    .englobaCuerpito .parte3 .productoTitulo {
+      font-size: 18px;
+      font-weight: 400;
+      color: #000000;
+      text-align: center; }
+    .englobaCuerpito .parte3 .cajaInfoProductos {
+      padding: 0 10px 0 10px;
+      text-align: center;
+      font-weight: 300;
+      color: #999999;
+      font-size: 14px; }
+    .englobaCuerpito .parte3 .precio {
+      margin-top: 5px;
+      width: 100%; }
+    .englobaCuerpito .parte3 .price {
+      color: #999999;
+      font-size: 20px;
+      text-align: center;
+      font-weight: lighter; }
+    .englobaCuerpito .parte3 .a {
+      color: #999999;
+      font-size: 20px;
+      text-decoration: none; }
+    .englobaCuerpito .parte3 .top {
+      padding-top: 10px; }
 
 /*# sourceMappingURL=main.css.map */
