@@ -5859,7 +5859,9 @@ nav .colorRojo:hover {
   /* PARTE 2 */
   /* FIN PARTE 2 */
   /* PARTE 3 */
-  /* FIN PARTE 3 */ }
+  /* FIN PARTE 3 */
+  /* PARTE 4 */
+  /* FIN PARTE 4 */ }
   .englobaCuerpito .baseBlanca {
     margin: -60px 30px 0;
     border-radius: 6px; }
@@ -5928,7 +5930,8 @@ nav .colorRojo:hover {
       width: 70%;
       height: 380px; }
   .englobaCuerpito .parte3 {
-    padding: 65px 0 70px; }
+    padding: 65px 0 70px;
+    background-color: #F5F5F5; }
     .englobaCuerpito .parte3 .tituloParte3 {
       font-size: 40px;
       color: #000000;
@@ -5940,7 +5943,7 @@ nav .colorRojo:hover {
       font-size: 18px; }
     .englobaCuerpito .parte3 .shopping {
       margin-top: 30px;
-      height: 637px;
+      height: 550px;
       padding-left: 10px;
       margin-right: -10px; }
     .englobaCuerpito .parte3 .fotParte3 {
@@ -5953,7 +5956,7 @@ nav .colorRojo:hover {
       margin-bottom: 25px;
       border-radius: 6px;
       color: rgba(0, 0, 0, 0.87);
-      background: #F5F5F5; }
+      background: white; }
     .englobaCuerpito .parte3 .imgParte3 {
       overflow: hidden;
       position: relative;
@@ -6002,5 +6005,34 @@ nav .colorRojo:hover {
       text-decoration: none; }
     .englobaCuerpito .parte3 .top {
       padding-top: 10px; }
+  .englobaCuerpito .parte4 {
+    padding: 50px 0 70px; }
+    .englobaCuerpito .parte4 .tituloParte4 {
+      font-size: 40px;
+      color: #000000;
+      font-weight: 700; }
+    .englobaCuerpito .parte4 .parraffParte4 {
+      margin: 0 0 10px;
+      font-weight: 300;
+      color: #999999;
+      font-size: 18px; }
+    .englobaCuerpito .parte4 .margenFotosPortf {
+      margin: 0;
+      padding-top: 40px; }
+    .englobaCuerpito .parte4 .cajaFotoPortfolio {
+      display: inline-block;
+      position: relative;
+      width: 95%;
+      margin-bottom: 30px;
+      border-radius: 6px;
+      z-index: 0;
+      transition: all 0.4s ease-out; }
+    .englobaCuerpito .parte4 .botonsitoRosa {
+      background-color: #e91e63;
+      color: white; }
+    .englobaCuerpito .parte4 .titPortParte4 {
+      font-size: 16px;
+      color: #999999;
+      font-weight: 300; }
 
 /*# sourceMappingURL=main.css.map */

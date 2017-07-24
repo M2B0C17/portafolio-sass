@@ -208,6 +208,7 @@ nav{
 
 	.parte3{
 		padding: 65px 0 70px;
+		background-color: #F5F5F5;
 
 		.tituloParte3{
 			font-size: 40px;
@@ -224,7 +225,7 @@ nav{
 
 		.shopping{
 			margin-top: 30px;
-			height: 637px;
+			height: 550px;
 			padding-left: 10px;
 			margin-right: -10px;
 		}
@@ -238,7 +239,7 @@ nav{
 		    margin-bottom: 25px;
 		    border-radius: 6px;
 		    color: rgba(0,0,0,.87);
-		    background: #F5F5F5;
+		    background: white;
 		}
 
 		.imgParte3{
@@ -313,4 +314,52 @@ nav{
 	}
 
 	/* FIN PARTE 3 */
+
+	/* PARTE 4 */
+
+	.parte4{
+		padding: 50px 0 70px;
+
+		.tituloParte4{
+			font-size: 40px;
+			color: #000000;
+			font-weight: 700;
+		}
+
+		.parraffParte4{
+			margin: 0 0 10px;
+			font-weight: 300;
+			color: #999999;
+			font-size: 18px;
+		}
+
+		.margenFotosPortf{
+			margin: 0;
+			padding-top: 40px;
+		}
+
+		.cajaFotoPortfolio{
+		    display: inline-block;
+		    position: relative;
+		    width: 95%;
+		    margin-bottom: 30px;
+		    border-radius: 6px;
+		  	z-index:0;
+		  	transition: all 0.4s ease-out;
+		}
+
+		.botonsitoRosa{
+			background-color: #e91e63;
+			color: white;
+		}
+
+		.titPortParte4{
+			font-size: 16px;
+			color: #999999;
+			font-weight: 300;
+		}
+		
+	}
+
+	/* FIN PARTE 4 */
 }
