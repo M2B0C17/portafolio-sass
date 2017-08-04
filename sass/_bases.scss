@@ -15,7 +15,7 @@ nav{
 
 	a{
 		text-decoration: none;
-		color: white;
+		color: $color_white;
 	}
 
 	.enlacenav:hover{
@@ -32,13 +32,13 @@ nav{
 	}
 
 	.colorRojo{
-		background-color: #e91e63;
-		color: white;
+		background-color: $color_rosado;
+		color: $color_white;
 	}
 
 	.colorRojo:hover{
-		background-color: #e91e63;
-		color: white;
+		background-color: $color_rosado;
+		color: $color_white;
 	}
 }
 
@@ -48,14 +48,14 @@ nav{
 
 .carouselBase{
 	.btnSeeMore{
-		background-color: #e91e63;
-		color: white;
+		background-color: $color_rosado;
+		color: $color_white;
 		margin-top: 30px;
 	}
 
 	.btnSeeMore:hover{
-		background-color: #e91e63;
-		color: white;
+		background-color: $color_rosado;
+		color: $color_white;
 	}
 
 	.imgaenFondoSlide1, .imgaenFondoSlide2{
@@ -144,7 +144,7 @@ nav{
 		}
 
 		.rosado{
-			color: #e91e63;
+			color: $color_rosado;
 		}
 
 		.celeste{
@@ -167,7 +167,7 @@ nav{
 		background-position: center;
 		background-image: url(../img/img_city.jpg);
 		padding: 65px 0 30px;
-		color: white;
+		color: $color_white;
 		background-attachment: fixed; /* para hacer scroll */
   		overflow: scroll;
 
@@ -239,7 +239,7 @@ nav{
 		    margin-bottom: 25px;
 		    border-radius: 6px;
 		    color: rgba(0,0,0,.87);
-		    background: white;
+		    background: $color_white;
 		}
 
 		.imgParte3{
@@ -349,8 +349,8 @@ nav{
 		}
 
 		.botonsitoRosa{
-			background-color: #e91e63;
-			color: white;
+			background-color: $color_rosado;
+			color: $color_white;
 			border: none;
 		}
 
@@ -490,8 +490,8 @@ nav{
 		}
 
 		.colorRojoSec6{
-			background-color: #e91e63;
-			color: white;
+			background-color: $color_rosado;
+			color: $color_white;
 			border: none;
 		}
 
@@ -566,21 +566,21 @@ nav{
 
 		.tituloParte8{
 			font-size: 40px;
-			color: white;
+			color: $color_white;
 			font-weight: 700;
 		}
 
 		.bajadaDeTituloSec8{
 			margin: 0 0 10px;
 			font-weight: 300;
-			color: white;
+			color: $color_white;
 			font-size: 18px;
 		}
 
 		.colorRojoSec8{
-			background-color: #e91e63;
-			color: white;
-			border: 3px solid #e91e63;
+			background-color: $color_rosado;
+			color: $color_white;
+			border: 3px solid $color_rosado;
 			padding: 10px;
 		}
 
@@ -593,7 +593,7 @@ nav{
 		}
 
 		input[placeholder]{
-			color: #e91e63;
+			color: $color_rosado;
 			padding-left: 50px;
 		}
 
@@ -601,7 +601,7 @@ nav{
 			padding-left: 15px;
 			position: absolute;
 			font-size: 20px;
-			color: #e91e63;
+			color: $color_rosado;
 			padding-top:10px;
 		}
 
@@ -652,7 +652,7 @@ nav{
 
 		a:hover{
 			text-decoration: none;
-			color: #e91e63;
+			color: $color_rosado;
 		}
 
 		.bajadaDeTituloSec9{
@@ -678,5 +678,133 @@ nav{
 
 	}
 	/* FIN PARTE 9 */
+	/* PARTE 10 */
+	.parte10{
+		background-image: url(../img/img_city.jpg);
+		width: 100%;
+		height: 100vh;
+		background-size: cover;
+		background-position: center;
+
+		.paddinSec10{
+			padding-left: 50px;
+		}
+
+		.paddingbottom{
+			padding-bottom: 50px;
+		}
+
+		.cajatextosSec6{
+			padding: 0 20px 0 20px;
+		}
+
+		.tituloParte10{
+			font-size: 35px;
+			color: white;
+			font-weight: 700;
+			padding-bottom: 30px;
+			padding-top: 25px;
+		}
+
+		.parraffParte10{
+			margin: 0 0 10px;
+			font-weight: 300;
+			color: #999999;
+			font-size: 15px;
+			padding-bottom: 50px;
+			padding-right: 30px;
+		}
+
+		.subTitulo10{
+			font-size: 25px;
+			color: white;
+			font-weight: 700;
+			padding-bottom: 30px;
+		}
+
+		.fa-map-marker, .fa-mobile{
+			color: white;
+			font-size: 40px;
+			padding-right: 10px;
+		}
+
+		.paddleftSec10{
+			padding-left: 38px;
+		}
+
+		.paddingtop{
+			padding-top: 20px;
+		}
+
+		/* Segunda parte */
+		.cajaFormulario10{
+			background-color: $color_white;
+			padding: 10px;
+			border-radius: 8px;
+			position: relative;
+			width: 500px;
+			height: 500px;
+			margin-top: 85px;
+			margin-left: 50px;
+		}
+
+		.tituloContactUs{
+			background-color: $color_rosado;
+			padding: 10px;
+			color: $color_white;
+			text-align: center;
+			font-size: 25px;
+			font-weight: 400;
+			width: 450px;
+			margin: 0 auto;
+			border-radius: 8px;
+			margin-top: -30px;
+			position: relative;
+		    z-index: 9;
+		    margin-bottom: 40px;
+		}
+
+		.paddingbottom10Form{
+			padding-top: 30px;
+		}
+
+		input{
+			border-bottom: 1px solid $color_rosado;
+			border-top: none; 
+			border-left: none; 
+			border-right: none;
+		}
+
+		.inputCorto10{
+			width: 150px;
+			height: 45px;
+			margin: 0 20px 0 20px;	 
+		}
+
+
+		.inputlargo10{
+			width: 350px;
+			height: 45px;
+		}
+
+		.paddingtopForm10{
+			padding-top: 30px;
+		}
+
+		.mensaje10{
+			padding: 10px;
+			width: 350px;
+			height: 200px;
+			border: 1px solid $color_rosado;
+		}
+
+		.colorRojoSec10{
+			background-color: $color_rosado;
+			color: $color_white;
+			border: 3px solid $color_rosado;
+			padding: 10px;
+		}
+	}
+	/* FIN PARTE 10 */
 
 }
