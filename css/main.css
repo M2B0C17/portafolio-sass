@@ -5869,7 +5869,9 @@ nav .colorRojo:hover {
   /* PARTE 7 */
   /* FIN PARTE 7 */
   /* PARTE 8 */
-  /* FIN PARTE 8 */ }
+  /* FIN PARTE 8 */
+  /* PARTE 9 */
+  /* FIN PARTE 9 */ }
   .englobaCuerpito .baseBlanca {
     margin: -60px 30px 0;
     border-radius: 6px; }
@@ -6115,7 +6117,7 @@ nav .colorRojo:hover {
     .englobaCuerpito .parte6 .fondoWhite {
       background-color: white;
       border: 1px solid transparent;
-      border-radius: 5px;
+      border-radius: 15px;
       padding: 20px; }
     .englobaCuerpito .parte6 .fondogray {
       padding: 20px; }
@@ -6178,7 +6180,10 @@ nav .colorRojo:hover {
       padding: 10px; }
     .englobaCuerpito .parte8 input {
       padding: 9px;
-      width: 400px; }
+      width: 400px;
+      height: 45px;
+      border: 1px solid transparent;
+      border-radius: 5px; }
     .englobaCuerpito .parte8 input[placeholder] {
       color: #e91e63;
       padding-left: 50px; }
@@ -6190,5 +6195,43 @@ nav .colorRojo:hover {
       padding-top: 10px; }
     .englobaCuerpito .parte8 .cajaDeElementosSEc8 {
       padding-top: 100px; }
+  .englobaCuerpito .parte9 {
+    padding: 50px 0 70px; }
+    .englobaCuerpito .parte9 .paddingbottom {
+      padding-bottom: 50px; }
+    .englobaCuerpito .parte9 .tituloParte9A {
+      font-size: 40px;
+      color: #000000;
+      font-weight: 700; }
+    .englobaCuerpito .parte9 .parraffParte9A {
+      margin: 0 0 10px;
+      font-weight: 300;
+      color: #999999;
+      font-size: 18px; }
+    .englobaCuerpito .parte9 .tituloParte9 {
+      font-size: 20px;
+      color: #000000;
+      font-weight: 700; }
+    .englobaCuerpito .parte9 .parraffParte9 {
+      margin: 0 0 10px;
+      font-weight: 300;
+      color: #999999;
+      font-size: 13px; }
+    .englobaCuerpito .parte9 a {
+      color: #000000; }
+    .englobaCuerpito .parte9 a:hover {
+      text-decoration: none;
+      color: #e91e63; }
+    .englobaCuerpito .parte9 .bajadaDeTituloSec9 {
+      color: #999999; }
+    .englobaCuerpito .parte9 .borderImgBlog {
+      border: 1px solid transparent;
+      border-radius: 15px; }
+    .englobaCuerpito .parte9 .color1 {
+      color: #ee5c8e; }
+    .englobaCuerpito .parte9 .color2 {
+      color: #57cfdb; }
+    .englobaCuerpito .parte9 .color3 {
+      color: #f68583; }
 
 /*# sourceMappingURL=main.css.map */

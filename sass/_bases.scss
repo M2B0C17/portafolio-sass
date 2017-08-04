@@ -481,7 +481,7 @@ nav{
 		.fondoWhite{
 			background-color: white;
 			border: 1px solid transparent;
-			border-radius: 5px;
+			border-radius: 15px;
 			padding: 20px;
 		}
 
@@ -587,6 +587,9 @@ nav{
 		input{
 			padding: 9px;
 			width: 400px;
+			height: 45px;
+			border: 1px solid transparent;
+			border-radius: 5px;
 		}
 
 		input[placeholder]{
@@ -609,5 +612,71 @@ nav{
 	}
 
 	/* FIN PARTE 8 */
+	/* PARTE 9 */
+	.parte9{
+		padding: 50px 0 70px;
+
+		.paddingbottom{
+			padding-bottom: 50px;
+		}
+		
+		.tituloParte9A{
+			font-size: 40px;
+			color: #000000;
+			font-weight: 700;
+		}
+
+		.parraffParte9A{
+			margin: 0 0 10px;
+			font-weight: 300;
+			color: #999999;
+			font-size: 18px;
+		}
+
+		.tituloParte9{
+			font-size: 20px;
+			color: #000000;
+			font-weight: 700;
+		}
+
+		.parraffParte9{
+			margin: 0 0 10px;
+			font-weight: 300;
+			color: #999999;
+			font-size: 13px;
+		}
+
+		a{
+			color: #000000;
+		}
+
+		a:hover{
+			text-decoration: none;
+			color: #e91e63;
+		}
+
+		.bajadaDeTituloSec9{
+			color: #999999;
+		}
+
+		.borderImgBlog{
+			border: 1px solid transparent;
+			border-radius: 15px;
+		}
+
+		.color1{
+			color: #ee5c8e;
+		}
+
+		.color2{
+			color: #57cfdb;
+		}
+
+		.color3{
+			color: #f68583;
+		}
+
+	}
+	/* FIN PARTE 9 */
 
 }
