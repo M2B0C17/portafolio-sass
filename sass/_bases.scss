@@ -496,4 +496,57 @@ nav{
 
 	}
 
+	.parte7{
+		padding: 50px 0 70px;
+
+		.paddingbottom{
+			padding-bottom: 50px;
+		}
+
+		.cliente{
+			border: 1px solid transparent;
+			border-radius: 200px;
+			width: 150px;
+		}
+
+		.tituloParte7A{
+			font-size: 40px;
+			color: #000000;
+			font-weight: 700;
+		}
+
+		.parraffParte7A{
+			margin: 0 0 10px;
+			font-weight: 300;
+			color: #999999;
+			font-size: 18px;
+		}
+
+		.tituloParte7{
+			font-size: 25px;
+			color: #000000;
+			font-weight: 700;
+		}
+
+		.bajadaDeTituloSec7{
+			color: #999999;
+		}
+
+		.parraffParte7{
+			margin: 0 0 10px;
+			font-weight: 300;
+			color: #999999;
+			font-size: 13px;
+		}
+
+		.cajatextosSec7{
+			padding: 0 30px 0 30px;
+
+		}
+
+		.cajaIMGSEc7{
+			padding-left: 27%;
+		}
+	}
+
 }
