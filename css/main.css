@@ -5863,7 +5863,13 @@ nav .colorRojo:hover {
   /* PARTE 4 */
   /* FIN PARTE 4 */
   /* PARTE 5 - MEET OUr TEAM */
-  /* FIN PARTE 5 */ }
+  /* FIN PARTE 5 */
+  /* PARTE 6 */
+  /* FIN PARTE 6 */
+  /* PARTE 7 */
+  /* FIN PARTE 7 */
+  /* PARTE 8 */
+  /* FIN PARTE 8 */ }
   .englobaCuerpito .baseBlanca {
     margin: -60px 30px 0;
     border-radius: 6px; }
@@ -6149,5 +6155,40 @@ nav .colorRojo:hover {
       padding: 0 30px 0 30px; }
     .englobaCuerpito .parte7 .cajaIMGSEc7 {
       padding-left: 27%; }
+  .englobaCuerpito .parte8 {
+    background-image: url(../img/about.png);
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px; }
+    .englobaCuerpito .parte8 .tituloParte8 {
+      font-size: 40px;
+      color: white;
+      font-weight: 700; }
+    .englobaCuerpito .parte8 .bajadaDeTituloSec8 {
+      margin: 0 0 10px;
+      font-weight: 300;
+      color: white;
+      font-size: 18px; }
+    .englobaCuerpito .parte8 .colorRojoSec8 {
+      background-color: #e91e63;
+      color: white;
+      border: 3px solid #e91e63;
+      padding: 10px; }
+    .englobaCuerpito .parte8 input {
+      padding: 9px;
+      width: 400px; }
+    .englobaCuerpito .parte8 input[placeholder] {
+      color: #e91e63;
+      padding-left: 50px; }
+    .englobaCuerpito .parte8 .sobresito {
+      padding-left: 15px;
+      position: absolute;
+      font-size: 20px;
+      color: #e91e63;
+      padding-top: 10px; }
+    .englobaCuerpito .parte8 .cajaDeElementosSEc8 {
+      padding-top: 100px; }
 
 /*# sourceMappingURL=main.css.map */
