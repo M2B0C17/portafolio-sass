@@ -351,6 +351,7 @@ nav{
 		.botonsitoRosa{
 			background-color: #e91e63;
 			color: white;
+			border: none;
 		}
 
 		.titPortParte4{
@@ -434,5 +435,65 @@ nav{
 
 	}
 	/* FIN PARTE 5 */
+
+	.parte6{
+		padding: 65px 0 70px;
+		background-color: #F5F5F5;
+
+		.cajatextosSec6{
+			padding: 0 20px 0 20px;
+		}
+
+		.tituloParte6{
+			font-size: 35px;
+			color: #000000;
+			font-weight: 700;
+			padding-bottom: 30px;
+		}
+
+		.parraffParte6{
+			margin: 0 0 10px;
+			font-weight: 300;
+			color: #999999;
+			font-size: 13px;
+		}
+
+		.numSec6{
+			font-size: 60px;
+			sup{
+				font-size: 20px;
+				padding-top: 101px;
+				margin-left: -13px;
+				position: absolute;
+			}
+
+			.small{
+				font-weight: 300;
+				color: #999999;
+				font-size: 30px;
+				position: absolute;
+				margin-left: -2px;
+				padding-top: 25px;
+			}
+		}
+
+		.fondoWhite{
+			background-color: white;
+			border: 1px solid transparent;
+			border-radius: 5px;
+			padding: 20px;
+		}
+
+		.fondogray{
+			padding: 20px;
+		}
+
+		.colorRojoSec6{
+			background-color: #e91e63;
+			color: white;
+			border: none;
+		}
+
+	}
 
 }
