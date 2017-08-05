@@ -856,5 +856,55 @@ nav{
 
 	}
 	/* FIN PARTE 11 */
+	/* FOOTER */
+	footer{
+		background-color: $color_fondo_11;
+		margin-top: -20px;
+		padding-bottom: 30px;
+
+		a{
+			text-decoration: none;
+			color: #999999;
+			font-weight: 300;
+		}
+
+		a:hover{
+			color: $color_rosado;
+			text-decoration: none;
+		}
+
+		.footerLinks{
+			padding-left: 10px;
+		}
+
+		.footerLinksfinal:hover{
+			color: $color_rosado;
+			text-decoration: none;
+		}
+
+		.cajaLinksfooter{
+			padding-left: 50px;
+			padding-top: 10px;
+		}
+
+		.footer{
+			background-color: $color_fondo_11;
+			width: 90%;
+		}
+
+		.textFooter{
+			font-weight: 300;
+			color: #999999;
+			font-size: 13px;
+			padding-bottom: 20px;
+		}
+
+		.derecha{
+			margin-left: -81px;
+			padding-top: 10px;
+		}
+	}
+
+	/* FIN FOOTER */
 
 }
