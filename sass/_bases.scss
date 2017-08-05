@@ -745,7 +745,7 @@ nav{
 			width: 500px;
 			height: 500px;
 			margin-top: 85px;
-			margin-left: 50px;
+			margin-left: 90px;
 		}
 
 		.tituloContactUs{
@@ -803,8 +803,58 @@ nav{
 			color: $color_white;
 			border: 3px solid $color_rosado;
 			padding: 10px;
+			margin-top: 10px;
 		}
 	}
 	/* FIN PARTE 10 */
+	/* PARTE 11 */
+	.parte11{
+		background-color: $color_fondo_11;
+
+		.cajaSec11{
+			margin-top: 30px;
+			padding-bottom: 30px;
+		}
+
+		.moverIzq{
+			position: absolute;
+			margin-left: 30px;
+		}
+
+		.subTitulo11{
+			font-size: 20px;
+			color: $color_white;
+			font-weight: 700;
+			padding-bottom: 30px;
+		}
+
+		.parraffParte11{
+			font-weight: 300;
+			color: #999999;
+			font-size: 13px;
+			padding-bottom: 20px;
+		}
+
+		.parraffParte11B{
+			font-weight: 300;
+			color: #999999;
+			font-size: 11px;
+			padding-bottom: 20px;
+		}
+
+		.fa{
+			font-size: 20px;
+			color: $color_white;
+		}
+
+		.sizeImgInsta{
+			border: 1px solid transparent;
+			border-radius: 5px;
+			width: 80px;
+			margin-bottom: 10px;
+		}
+
+	}
+	/* FIN PARTE 11 */
 
 }
